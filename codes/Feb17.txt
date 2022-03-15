@@ -1,0 +1,23 @@
+Escape Sequence \n, \t, \b, \a 등
+리터럴
+
+10. -> 10.0
+.10 -> 0.10
+10f -> 10.0f
+3.14e3f -> 3140.0f
+1e1 -> 10.0
+
+char ch = 'A';
+char ch = 'AB'; //에러 발생
+string
+'A' + 1 = 66
+"A" + 1 => "A1"
+
+demotion
+float f = 1.6f 
+int i = f; -> 에러 발생
+int i = (int)f => 버림 발생
+
+promotion
+byte b = 10;
+int i = b; -> 문제X

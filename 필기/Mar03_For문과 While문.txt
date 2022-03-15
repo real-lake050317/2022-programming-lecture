@@ -1,0 +1,23 @@
+if-switch
+범용성: if
+예측 가능한 경우의 수: switch
+미학적: switch
+
+for문과 while문은 서로 상호 교환이 가능하다
+
+Countable Loop Vs. Uncountable Loop
+
+for (; (조건문); ) -> 작동 정상적으로 됨
+
+유클리드 호제법
+1. m과 0의 GCD는 M이다
+2. m, n의 GCD는 m >= n m%n, n의 GCD와 동일, m<n m, n-m의 GCD와 동일
+
+가감승제
+
+break와 continue
+break: loop가 원래 의도한 대로 작동하지 않고 빠져 나옴
+continue: loop가 원래 의도한 대로 작동하지 않고 다음 반복문으로 넘어감 비교적 온건함
+
+break를 이용해 루프를 빠져나가거나 새로 시작할 수 있다
+

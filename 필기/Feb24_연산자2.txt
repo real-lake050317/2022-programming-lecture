@@ -1,0 +1,32 @@
+괄호의 우선순위가 가장 높다
+산술 -> 비교 -> 논리 -> 대입 의 순서로 우선순위가 보통 가장 높으나,
+단항 -> 이항 -> 삼항 순으로 높음
+
+일반적으로 연산자의 연산 방향은 -> 이다.
+단, 단항, 대입 연산자는 <- 이다.
+
+이항연산자는 연산을 수행하기 전에 피연산자의 타입을 일치시킨다
+- int 보다 작은 타입은 int로 변환
+(byte, char, short -> int)
+- 피연산자중 표현범위가 더 큰 타입으로 캐스팅 한다
+byte + short -> int + int
+char + int -> int + int
+float + int -> float + float
+long + float -> float + float
+float + double -> double + double 
+
+byte a, b, c;
+a = 127;
+b = 1;
+c = a + b; //에러 발생
+c = (byte) (a + b); //c = -128
+
+int + int 를 byte에 구겨 넣으려고 하면 demotion 발생
+
+int a = 1000000;
+int b = 2000000;
+long c = a * b; //오버플로우 발생, 곱생 과정 자체에서 발생함
+long c = (long)a * b //연산 됨
+
+int * int -> int
+long * int -> long * long
