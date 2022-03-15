@@ -1,0 +1,28 @@
+public static void test{
+    test();
+}
+
+public static void main(String[] args){
+    test();
+}
+와 같이 무한히 메소드를 호출하면 stackoverflow 발생. 메모리의 호출은 스택에 담기기 때문
+
+f(n) = {
+    1 (n == 1)
+    n + f(n - 1) (n > 1)
+}
+재귀형 프로그래밍.
+
+public static int sum(int n){
+    if (n == 1)
+        return 1;
+
+    return n + sum(n - 1);
+}
+
+public static int fibonacci(int n){
+    if (n == 1 || n == 2)
+        return 1;
+
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
