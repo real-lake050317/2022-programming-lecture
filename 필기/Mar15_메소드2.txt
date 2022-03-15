@@ -26,3 +26,54 @@ public static int fibonacci(int n){
 
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
+public static int factorial(int n){
+    if (n == 1)
+        return 1;
+
+    return n * factorial(n - 1);
+}
+
+하노이탑,
+이항계수
+
+void recurMe1(int num)
+{
+   System.out.print(num+" ");
+   if (num<4)
+       recurMe1(num+1);
+}
+
+void recurMe2(int num)
+{
+   if (num<4)
+       recurMe2(num+1);
+   System.out.print(num+" ");
+}
+
+void printBinary(int num)
+{
+   if (num>1)
+       printBinary(num/2);
+   System.out.print(num%2);
+}
+
+Tail Recursion - 스택에 이전 호출들의 결과값을 저장할 필요가 없는 재귀함수.
+
+1. 일반적인 재귀 - 이전 콜 스택을 유지해야 함
+long fact (int n)
+{
+   if (n == 0) return 1;
+   else
+      return n * fact(n - 1);
+}
+
+2. 꼬리 재귀 - 이전 콜 스택을 유지하지 않아도 재귀 과정에서 스택을 삭제함. Arguments 자체에 곱한 값을 전송. 이를 통해 최적화 가능
+long fact (int n, long acc)
+{
+   if (n == 0) return acc;
+   else
+      return fact(n - 1, n * acc);
+}
+
+
