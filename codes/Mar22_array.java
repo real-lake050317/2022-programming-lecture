@@ -1,9 +1,9 @@
 public class Mar22_array{
     public static void main(String[] args){
-        int a[];
-        a = new int[5]; //new int[5]{0, 1, 2, 3, 4} 는 에러 발생
+        //int a[];
+        //a = new int[5]; //new int[5]{0, 1, 2, 3, 4} 는 에러 발생
         //int a[] = new int[]{1, 2, 3, 4, 5}; //에러 발생
-        int b[] = new int[50];
+        //int b[] = new int[50];
         /*
         System.out.println(a[0]);
         System.out.println(a[1]);
