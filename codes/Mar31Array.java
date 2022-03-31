@@ -10,14 +10,14 @@ public class Mar31Array {
         }
         return false;
     }
-
+    /*
     public static int maxmax(int a[]){
         int maxmin[] = new int[]{a[0], a[0]};
         for (int i = 1; i<a.length; i++){
             maxmin[0] = (maxmin[0] < a[i])?a[i] : maxmin
         }
     }
-
+    */
     //원소의 갯수가 동일한 정수 배열 두개를 인자로 받아 그 두 배열의 각각의 원소들의 합을 새로운 워노솔 하는 배열을 리턴하는 메소드를 작성하시오
     public static int[] sum(int a[], int b[]){
         int c[] = new int[a.length];
