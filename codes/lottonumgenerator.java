@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class lottonumgenerator {
     public static void main(String[] args){
         int[] arr = new int[6];
+        //int[] winNum = new int[6];
         Random r = new Random();
         for (int i = 0; i < arr.length; i++){
             boolean flg = false;
@@ -21,7 +22,8 @@ public class lottonumgenerator {
         }
 
         Arrays.sort(arr); //sort the array
-        
+
+
         //print the array
         for (int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
