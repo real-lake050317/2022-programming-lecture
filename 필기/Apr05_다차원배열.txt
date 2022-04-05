@@ -1,0 +1,9 @@
+int c[][];
+c = new int[3][];
+c[0] = new int[3];
+c[1] = new int[4];
+c[2] = new int[5];
+같은 식으로도 작성 가능
+but, 
+c = new int[3][4];
+와 같은 간단한 방법으로 주로 함.
