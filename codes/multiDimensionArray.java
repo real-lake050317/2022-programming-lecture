@@ -19,7 +19,7 @@ public class multiDimensionArray {
             }
             System.out.println();
         }
-        */
+        
         //선언, 정의, 초기화를 동시에 한 후 출력
         int[][] arr = new int[][]{{1, 2, 3}, {4, 5, 6}};
         for (int i = 0; i<2; i++){
@@ -28,5 +28,7 @@ public class multiDimensionArray {
             }
             System.out.println();
         }
+        */
+        //선언, 초기화를 동시에 한 후 출력
     }
 }
