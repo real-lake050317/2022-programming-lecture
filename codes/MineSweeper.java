@@ -11,18 +11,19 @@ public class MineSweeper {
         int[] dx = new int[]{0, 1, 0, -1, 1, 1, -1, -1};
         int[] dy = new int[]{1, 0, -1, 0, 1, -1, 1, -1};
 
-        for (int i = 1; i<num + 1; i++) for (int j = 1; j<num + 1; j++) board[i][j] = 'N';
-
+        for (int i = 1; i<num + 1; i++) for (int j = 1; j<num + 1; j++) board[i][j] = 'N'; //set mines to 'N'
+        
+        //place mines randomly
         while (true){
             int x = (int)(Math.random()*num);
             int y = (int)(Math.random()*num);
-            if (board[x][y] == 'N'){
-                board[x][y] = '*';
+            if (board[x][y] == 'N'){ //check if the position is already occupied
+                board[x][y] = '*'; //place mine
                 cnt--;
             }
             if (cnt == 0) break;
         }
-
+        //count neighbor mines
         for (int i = 1; i<num+1; i++){
             for (int j = 1; j<num+1; j++){
                 if (board[i][j] == 'N'){
@@ -36,7 +37,7 @@ public class MineSweeper {
                 }
             }
         }
-
+        //print board
         for (int i = 1; i<num+1; i++){
             for (int j = 1; j<num+1; j++) System.out.print(board[i][j] + " ");
             System.out.println();
