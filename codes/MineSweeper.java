@@ -24,8 +24,8 @@ public class MineSweeper {
             if (cnt == 0) break;
         }
         //count neighbor mines
-        for (int i = 1; i<num+1; i++){
-            for (int j = 1; j<num+1; j++){
+        for (int i = 1; i < num + 1; i++){
+            for (int j = 1; j < num + 1; j++){
                 if (board[i][j] == 'N'){
                     int cntMine = 48;
                     for (int k = 0; k<8; k++){
@@ -38,8 +38,9 @@ public class MineSweeper {
             }
         }
         //print board
-        for (int i = 1; i<num+1; i++){
-            for (int j = 1; j<num+1; j++) System.out.print(board[i][j] + " ");
+        for (int i = 1; i < num + 1; i++){
+            for (int j = 1; j < num + 1; j++) System.out.print(board[i][j] + " ");
+            System.out.println();
             System.out.println();
         }
     }
