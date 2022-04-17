@@ -20,6 +20,7 @@ public class MagicSquare {
             }
         }
         for (int i = 0; i<n; i++){
+            
             for (int j = 0; j<n; j++){
                 System.out.print(board[i][j] + " ");
             }
