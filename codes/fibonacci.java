@@ -1,3 +1,4 @@
+package codes;
 public class fibonacci{
     public static int fib(int a){
         if (a == 0) return 0;

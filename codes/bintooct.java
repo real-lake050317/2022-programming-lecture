@@ -1,3 +1,4 @@
+package codes;
 import java.util.Scanner;
 public class bintooct {
     public static void main(String[] args){

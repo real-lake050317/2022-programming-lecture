@@ -1,3 +1,4 @@
+package codes;
 public class overriding {
 
     static long add (int a, int b) { return a + b; }

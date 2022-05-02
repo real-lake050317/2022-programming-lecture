@@ -1,3 +1,4 @@
+package codes;
 public class Apr07_array{
 	public static void main(String[] args) 
 	{

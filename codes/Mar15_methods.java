@@ -1,3 +1,4 @@
+package codes;
 public class Mar15_methods{
     public static int sum(int n){
         if (n == 1)

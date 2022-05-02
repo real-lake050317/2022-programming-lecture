@@ -1,3 +1,4 @@
+package codes;
 public class lottomatching {
     public static void main(String[] args){
         /*

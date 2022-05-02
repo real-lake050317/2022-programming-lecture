@@ -1,3 +1,4 @@
+package codes;
 public class literaltest {
     public static int test(byte a){
         return a+1;

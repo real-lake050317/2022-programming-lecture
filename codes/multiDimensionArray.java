@@ -1,3 +1,4 @@
+package codes;
 public class multiDimensionArray {
     public static void main(String[] args){
         //2행 3열의 이차원 배열 하나를 선언하고

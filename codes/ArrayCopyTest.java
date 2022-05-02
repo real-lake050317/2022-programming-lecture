@@ -1,3 +1,4 @@
+package codes;
 class ArrayCopyTest 
 {
 	public static void main(String[] args) 
@@ -47,21 +48,21 @@ class ArrayCopyTest
 
 		///*
 		int a=10;
-		System.out.println("¸Þ¼Òµå È£Ãâ Àü °ª "+a);
+		System.out.println("ï¿½Þ¼Òµï¿½ È£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ "+a);
 
 		testMethod(a);
 
-		System.out.println("¸Þ¼Òµå È£Ãâ ÈÄ °ª "+a);
+		System.out.println("ï¿½Þ¼Òµï¿½ È£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ "+a);
 		//*/
 
 		///*
-		System.out.println("¸Þ¼Òµå È£Ãâ Àü ¹è¿­ ¿ø¼Ò °ª *****************");
+		System.out.println("ï¿½Þ¼Òµï¿½ È£ï¿½ï¿½ ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ *****************");
 		print(org);
 		System.out.println("\n***************************\n");
 		
 		testMethod(org);
 
-		System.out.println("¸Þ¼Òµå È£Ãâ ÈÄ ¹è¿­ ¿ø¼Ò °ª *****************");
+		System.out.println("ï¿½Þ¼Òµï¿½ È£ï¿½ï¿½ ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ *****************");
 		print(org);
 		System.out.println("\n***************************\n");
 		//*/
@@ -72,14 +73,14 @@ class ArrayCopyTest
 
 	public static void testMethod(int a)
 	{
-		System.out.println("Àü´Þ ÀÎÀÚ·Î ³Ñ°Ü ¹ÞÀº °ª "+a);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½Ñ°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ "+a);
 		a=a+8494;
-		System.out.println("¸Þ¼Òµå ³»¿¡¼­ º¯È­ ½ÃÅ² °ª"+a);
+		System.out.println("ï¿½Þ¼Òµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½Å² ï¿½ï¿½"+a);
 	}
 
 	public static void testMethod(int a[])
 	{
-		System.out.println("Àü´Þ ÀÎÀÚ·Î ³Ñ°Ü ¹ÞÀº ¹è¿­ÀÇ ¿ø¼Ò °ª*****************");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½Ñ°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½*****************");
 		for(int i=0;i<a.length;i++){
 			System.out.print(a[i]+" ");
 		}
@@ -89,7 +90,7 @@ class ArrayCopyTest
 			a[i]*=2;
 		}
 
-		System.out.println("¸Þ¼Òµå ³»¿¡¼­ º¯È­½ÃÅ² ¹è¿­ÀÇ ¿ø¼Ò °ª*****************");
+		System.out.println("ï¿½Þ¼Òµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½Å² ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½*****************");
 		for(int i=0;i<a.length;i++){
 			System.out.print(a[i]+" ");
 		}

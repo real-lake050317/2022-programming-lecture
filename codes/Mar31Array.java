@@ -1,3 +1,4 @@
+package codes;
 import java.util.Scanner;
 
 public class Mar31Array {
