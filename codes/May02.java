@@ -13,11 +13,10 @@ class May02 {
         b[2] = 300;
         for (int i = 0; i<b.length; i++) System.out.print(b[i] + " ");
         */
-        Student c = new Student();
-        
-        System.out.println(c.classNum);
-        System.out.println(c.num);
-        System.out.println(c.name);
-        System.out.println(c.kor);
+        Student c = new Student(5, "Jinho", 100.0, 1);
+        printStudent(c);
+    }
+    public static void printStudent(Student s){
+        System.out.println(s.classNum + "반 " + s.num + "번 " + s.name + "의 국어점수는:" + s.kor);
     }
 }
