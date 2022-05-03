@@ -17,6 +17,6 @@ class May02 {
         printStudent(c);
     }
     public static void printStudent(Student s){
-        System.out.println(s.classNum + "반 " + s.num + "번 " + s.name + "의 국어점수는:" + s.kor);
+        System.out.println(s.classNum + "반 " + s.num + "번 " + s.name + "의 국어점수는: " + s.kor);
     }
 }
