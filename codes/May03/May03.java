@@ -10,7 +10,10 @@ public class May03 {
         System.out.println(a.areaCircle());
 
         Circle c = new Circle();
-        c.setRadius(a.getRadius());
+        c.setRadius(a.getRadius()); //복사 생성자
+
+        Circle d = new Circle(a);
+        
 
     } 
 }

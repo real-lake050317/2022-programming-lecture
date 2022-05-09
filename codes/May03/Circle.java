@@ -31,4 +31,8 @@ public class Circle {
     public double getRadius(){
         return radius;
     }
+
+    public Circle(Circle x){ //복사 생성자
+        radius = x.radius;
+    }
 }
