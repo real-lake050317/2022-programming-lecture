@@ -5,7 +5,12 @@ public class Circle {
     final public double pi = Math.PI;
 
     public Circle(){
-        System.out.println("Hello, World!");
+        radius = 1.0;
+        
+    }
+
+    public Circle(double r){
+        setRadius(r); //캡슐화 가능
     }
 
     public void setRadius(double r){
@@ -21,5 +26,9 @@ public class Circle {
 
     public double areaCircle(){
         return radius*radius*pi;
+    }
+
+    public double getRadius(){
+        return radius;
     }
 }
