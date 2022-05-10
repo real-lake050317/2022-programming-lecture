@@ -22,3 +22,5 @@ System.out.println(Circle.count); 만 실행시켜도 Circle class가 존재하�
 어떤 클래스의 생성자가 모두 private 이면,
 인스턴스를 생성하는건 안됨
 But, 내부의 모든 요소가 static으로 되어 있으면, [클래스이름].[static 변수 이름] 으로 모두 접근 가능
+
+인스턴스 변수 vs 클래스 변수 vs 지역변수
