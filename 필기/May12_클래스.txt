@@ -1,0 +1,47 @@
+변수들의 종류와 각각의 생성 시기와 소멸 시기를 비교하시오
+* 인스턴스 변수: 선언, 정의 된 후에 메모리를 차지하고, 메모리가 garbage화 되면 (null 값이 대입 또는 참조 영역이 끊어지면) 소멸됨.
+* 클래스 변수: 메모리를 가장 빠르게 차지함(static한 변수들). 프로그램이 종료 되어야만 메모리를 해제할 수 있음.
+* 지역변수: 해당 메소드나 for문 등을 벗어나면 소멸됨.
+
+스태틱 메소드 안에서는 non-static한 메소드를 사용할 수 없다.
+
+Math 클래스 안에서는 모두 static 한 메소드로 사용됨
+따라서 Math c = new Math; 같은 구문을 사용하지 않아도 됨
+
+
+클래스 메소드가 인스턴스 변수를 사용할 수 없는 이유: 메모리에 할당되는 시기가 일치하지 않아서
+
+스태틱 메소드 <-> 인스턴스 메소드
+
+this.[멤버변수]
+=> this()
+
+constructor에서
+
+멤버변수와 지역변수의 이름이 같은 경우에는 무엇이 우선하나? -> 지역변수가 우선함
+public void setRadius (double radius){
+    if (radius <= 0.0) {
+        System.out.println("반지름이 음수일 수 없습니다");
+        radius = 1.0;
+        //도 this.radius = 1.0으로 바꿔줘야 하ㅓㅁ
+    }
+    else radius = radius; //전역변수 radius에 인자로 받은 radius를 대입하고자 함
+    이때, this.radius = radius 라고 하면 전역변수 radius에 대입됨
+}
+
+인스턴스로서의 this.
+클래스 내에서 메소드의 인자가 멤버변수의 이름과 동일한 경우
+모든 클래스 인스턴스들의 
+
+public Circle (double r){
+    /*statements*/
+}
+
+public Circle(){
+    Circle(1.0); //recursion 규정 위반
+    this(1.0); //이 클래스 내에서 double을 받아주는 constructor에서 호출함
+}
+
+public Circle (Circle X){
+    this(x.radius);
+}
