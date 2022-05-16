@@ -1,6 +1,7 @@
+/*
 package codes.May09;
 
-public class May10 {
+public static void May10 {
     Circle a = new Circle(2.0);
     System.out.println(a.totalC);
     Circle b = new Circle();
@@ -10,3 +11,5 @@ public class May10 {
     System.out.println(b.count);
     System.out.println(Circle.totalC); //
 }
+
+*/
