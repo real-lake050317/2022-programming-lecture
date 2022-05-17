@@ -1,0 +1,14 @@
+메뉴 제목: 매뉴얼 만들기
+
+명령: programfiles -> java -> jdk -> bin -> javadoc.exe
+
+인수: $(FileName)
+디렉토리: $(FileDir)
+
+javadoc 만들때는
+/** ... */ 로 commenting 함
+
+@param
+@return 등으로 문서작업
+
+www.alimant.org -> 

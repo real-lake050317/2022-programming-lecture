@@ -23,7 +23,7 @@ public void setRadius (double radius){
     if (radius <= 0.0) {
         System.out.println("반지름이 음수일 수 없습니다");
         radius = 1.0;
-        //도 this.radius = 1.0으로 바꿔줘야 하ㅓㅁ
+        //도 this.radius = 1.0으로 바꿔줘야 함
     }
     else radius = radius; //전역변수 radius에 인자로 받은 radius를 대입하고자 함
     이때, this.radius = radius 라고 하면 전역변수 radius에 대입됨
