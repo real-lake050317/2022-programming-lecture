@@ -1,0 +1,42 @@
+package ÀÚ·á.May24.Circle;
+
+public class Circle
+{
+	private double radius;
+	private double pi=3.141592;
+
+	public Circle()	{ }	
+
+	public void setRadius(double radius)
+	{
+		if(radius<0.0) {
+			System.out.println("???????? 0.0????? ¨¨?? ????. ???????? "+ (-radius)+"?? ????????.");
+			this.radius=-radius;
+		}
+		else if(radius==0.0) {
+			System.out.println("???????? 0.0????? ¨¨?? ????. ???????? 1.0???? ????????.");
+			this.radius=1.0;
+		}
+		else this.radius=radius;
+	}
+
+	public double getRadius()
+	{
+		return this.radius;
+	}
+
+	public double getPi()
+	{
+		return this.pi;
+	}
+
+	public double area()
+	{
+		return this.radius*this.radius*this.pi;
+	}
+
+	public double circumference()
+	{
+		return 2.0*this.radius*this.pi;
+	}
+}
