@@ -1,4 +1,5 @@
-package 자료.May24.Circle;
+/*
+package �ڷ�.May24.Circle;
 
 public class PartialCircle extends Circle 
 {
@@ -9,11 +10,11 @@ public class PartialCircle extends Circle
 	public void setAngle(double angle)
 	{
 		if(angle <= 0.0) {
-			System.out.println("ȣ�� �߽ɰ��� 0.0 ������ �� �����ϴ�. 360.0���� �����մϴ�.\n");
+			System.out.println("??? ?????? 0.0 ?????? ?? ???????. 360.0???? ????????.\n");
 			this.angle=360.0;
 		}
 		else if(angle > 360.0) {
-			System.out.println("ȣ�� �߽ɰ��� 360.0 ���� Ŭ�� �����ϴ�. "+angle+" % 360.0�� ������ �����մϴ�.\n");
+			System.out.println("??? ?????? 360.0 ???? ??? ???????. "+angle+" % 360.0?? ?????? ????????.\n");
 			this.angle=angle%360.0;
 		}
 		else this.angle=angle;
@@ -34,3 +35,4 @@ public class PartialCircle extends Circle
 		return super.circumference()*(angle/360.0);
 	}
 }
+*/

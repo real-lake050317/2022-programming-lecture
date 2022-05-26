@@ -1,3 +1,4 @@
+/*
 package 자료.May24.Circle;
 
 class PartialCircleMain 
@@ -23,3 +24,4 @@ class PartialCircleMain
 		System.out.println(b.circumference());
 	}
 }
+*/
