@@ -1,0 +1,17 @@
+compareTo() 메소드에 따라서 
+
+implements Comparable<Square> 를 사용하려면, compareTo를 override 해줘야 함
+
+public static void sort(Object[] a)
+
+Sorts the specified array of objects into ascending order, according to the natural ordering of its elements. All elements in the array must implement the Comparable interface. Furthermore, all elements in the array must be mutually comparable (that is, e1.compareTo(e2) must not throw a ClassCastException for any elements e1 and e2 in the array).
+
+Object를 sort하려면 compareTo 메소드를 가지고 implements Comparable를 가져야 함
+
+RefCastOvlPoly01.java 에서는
+MyShape를 상속하기 때문에
+
+Object를 소팅하려면 
+
+implements: 추상화된 Object
+implement는 여러개 해도 됨
