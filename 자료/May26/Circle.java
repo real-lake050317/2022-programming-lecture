@@ -1,3 +1,4 @@
+package May26;
 /**
 *	@author		CHKIM &lt;chkim@minjok.hs.kr&gt;
 *	@version	0.1

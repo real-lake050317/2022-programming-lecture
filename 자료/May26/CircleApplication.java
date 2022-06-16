@@ -1,5 +1,4 @@
-package 자료.May26;
-
+package May26;
 /*
 class CircleApplication
 {

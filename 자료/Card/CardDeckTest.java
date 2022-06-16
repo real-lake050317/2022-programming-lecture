@@ -1,4 +1,4 @@
-package 자료;
+package Card;
 
 class CardDeckTest { 
       public static void main(String args[]) { 

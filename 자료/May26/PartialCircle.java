@@ -1,5 +1,4 @@
-package 자료.May26;
-
+package May26;
 /**
 *	@author		CHKIM &lt;chkim@minjok.hs.kr&gt;
 *	@version	0.1

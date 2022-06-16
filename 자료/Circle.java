@@ -8,8 +8,6 @@
 *	</p>
 */  
 
-package 자료;
-
 public class Circle
 {
 	/**

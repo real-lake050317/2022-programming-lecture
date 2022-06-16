@@ -1,0 +1,7 @@
+Interface: 순수 추상 클래스, class 대신 interface 키워드 이용
+
+추상클래스 vs Interface
+Abstract하지 않은걸 가져도 되는 추상클래스,
+모든것이 Abstract 해야 하는 Interface
+
+Abstract랑 Private는 서로 모순 -> 동시에 사용 불가
