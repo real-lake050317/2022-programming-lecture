@@ -1,0 +1,29 @@
+Interface: 변수는 public static final 이어야 하지만, 생략 가능. 메소드는 public static. 변수 선언 시, 값을 지정해줘야 함.
+복사생성자: 
+Car(Car c) {
+	this(c.color, c.gearType, c.door);
+}
+
+1. 자동초기화
+2. 명시적 초기화
+3. 블록 초기화 루팅
+4. 생성자를 통한 초기화
+의 순서로 초기화 됨
+
+생성자가 private한 class는 다른 클래스의 조상이 될 수 있는가?
+ㄴ
+
+public Circle(){
+    Circle(1.0); //recursion 규정 위반
+    this(1.0); //이 클래스 내에서 double을 받아주는 constructor에서 호출함
+}
+
+private abstract -> 불가능
+static abstract -> 불가능
+클래스에 final abstract 불가능
+
+스태틱 메소드 안에서는 non-static한 메소드를 사용할 수 없다.
+
+* 클래스 변수: 메모리를 가장 빠르게 차지함(static한 변수들). 프로그램이 종료 되어야만 메모리를 해제할 수 있음.
+
+
