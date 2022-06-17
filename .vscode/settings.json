@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "자료/May24/Circle",
+        "자료",
         "codes/May26/Q1",
         "codes/Jun02",
-        "자료"
+        "codes/Test"
     ]
 }
